@@ -28,4 +28,4 @@ WORKDIR /home
 
 EXPOSE 8080
 
-CMD ['jupyter', 'lab']
+CMD ['source', 'activate', '&&','jupyter', 'lab']
