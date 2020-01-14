@@ -7,6 +7,7 @@ COPY . /home/install/
 RUN apt-get update -y
 RUN apt-get install apt-utils -y
 RUN apt-get install -y wget gcc g++ unzip git htop
+RUN apt-get clean
 
 # Install Anaconda
 SHELL ["/bin/bash", "-c"]
