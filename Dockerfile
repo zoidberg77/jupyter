@@ -24,7 +24,7 @@ RUN conda create --name zoid
 RUN source activate zoid &&\
     conda install --file requirements.txt
 
-WORKDIR /home
+WORKDIR /work
 
 EXPOSE 8080
 
